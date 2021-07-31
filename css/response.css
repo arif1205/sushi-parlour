@@ -1,0 +1,93 @@
+@media screen and (max-width: 991px) {
+  header {
+    background-position: right;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header div.logo {
+    width: 60%;
+  }
+  header div.announce {
+    width: 80%;
+  }
+  header div.announce div.text span {
+    font-size: 47px;
+  }
+  header div.announce div.text span.date {
+    font-size: 68px;
+  }
+  header div.button a {
+    font-size: 40px;
+    margin-right: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header nav {
+    background: #383b324d;
+    border-bottom: 5px solid #383b32;
+    padding: 25px 0 !important;
+  }
+  header nav button {
+    float: right;
+  }
+  header nav a {
+    text-align: right;
+    margin-right: 0 !important;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  section.section-3 div.food-list div.food-list-head h3 {
+    font-size: 40px;
+  }
+  section.section-3 div.food-list div.food-list-head h2 {
+    font-size: 36px;
+  }
+  section.section-3 div.food-list div.row div.col-12 {
+    border: 2px solid white;
+  }
+  section.section-3 div.food-list div.row div.col-12:nth-child(odd) {
+    border-bottom: none;
+  }
+  section.section-3 div.food-list div.row div.col-12:nth-child(even) {
+    border-top: none;
+  }
+  header div.logo {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+  }
+  header div.announce {
+    width: 95%;
+    margin: auto;
+    margin-top: 70px;
+  }
+  header div.announce div.text span {
+    font-size: 40px;
+  }
+  header div.announce div.text span.date {
+    font-size: 60px;
+  }
+  header div.button div.container {
+    text-align: center !important;
+  }
+  header div.button a {
+    font-size: 32px;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.section-5 div.new-menu div.menu div.row div.col-12 div.menu-img, section.section-5 div.new-menu div.menu div.row div.col-12 div.menu-caption {
+    margin: auto;
+    text-align: center;
+  }
+  section.section-5 div.new-menu div.menu div.row div.col-12 div.menu-caption {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=response.css.map */
